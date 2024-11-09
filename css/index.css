@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 90%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-goed {
+    background: green;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-einde {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-einde > .test-goed > h1 {
+    color: green;
+}
+
+.container-fout {
+    background: red;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.test-goed {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.test {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image {
+    border-radius: 10px;
+    border: solid 3px;
+    border-color: green;
+    width: 50%;
+    height: 50%;
+    margin-bottom: 10%;
+    object-fit: cover;
+    object-position: center;
+}
+
+h1 {
+    margin-bottom: 5%;
+    font-size: 2em;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+p {
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+textarea {
+    display: none;
+}
+
+input {
+    padding: 30px 10%;
+    border-radius: 10px;
+    border: 2px solid green;
+    text-align: center;
+    font-size: 20px;
+    width: 80%;
+}
+
+button {
+    margin-top: 10%;
+    padding: 20px 10%;
+    border-radius: 10px;
+    border: none;
+    background: white;
+    color: black;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+button:hover {
+    background: rgb(216, 216, 216);
+    color: black;
+}
